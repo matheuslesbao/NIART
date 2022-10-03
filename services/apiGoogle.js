@@ -2,7 +2,7 @@
 
 const apiKey = "AIzaSyC6iJh8tMO5kCKeRtXYrfN_GQ5Qg_WV-3c";
 
-const script = document.createElement('script');
+const script = document.createElement("script");
 script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap&v=weekly`;
 script.async = true;
 
