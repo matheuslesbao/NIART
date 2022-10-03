@@ -43,28 +43,29 @@
       </div>
     <!-- Header -->
     <header id="header" role="banner">
-      <div class="header__content">
-        <h1>
-          Feito com
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
-            fill="purple"
-            class="bi bi-heart-fill"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
-            />
-          </svg>
-          pela NIART
-        </h1>
-        <p>O seu negocio merece o melhor</p>
-      </div>
-      <!-- Button whatsapp -->
-      <div class="header__image">
+      <div class="container-fluid header__content">
+    <!-- Header text -->
+        <header class="header__text">
+          <h1>
+            Feito com
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="purple"
+              class="bi bi-heart-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+              />
+            </svg>
+            pela NIART
+          </h1>
+          <p>O seu negocio merece o melhor</p>
+        </header>
+         <!-- Button whatsapp -->
         <div class="btn__content">
           <a
             href="https://api.whatsapp.com/send/?phone=5521987677879&text&type=phone_number&app_absent=0"
@@ -87,12 +88,17 @@
             Saiba mais
           </a>
         </div>
-        <img
-          src="assets/mulher-negra-com-moletom-verde-feliz.png"
-          alt=""
-          srcset=""
-        />
+        <!-- Image Header -->
+        <div class="header__image">
+          <img
+            src="assets/mulher-negra-com-moletom-verde-feliz.png"
+            alt=""
+            srcset=""
+          />
+        </div>
       </div>
+     
+     
     </header>
     <!-- Main -->
     <main>
@@ -210,7 +216,7 @@
       <div class="follows">
         <h3 class="follows__title">????</h3>
         <p>@niart</p>
-        <div class="posts">
+        <div class="container posts">
           <div class="post__item"></div>
           <div class="post__item"></div>
           <div class="post__item"></div>
